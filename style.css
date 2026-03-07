@@ -1,7 +1,7 @@
-/* 1. FONT DECLARATION (FIXED PATH) */
+/* 1. FONT DECLARATION (FIXED PATH & FILENAME) */
 @font-face {
     font-family: 'Genty';
-    /* Screenshot ke hisab se G capital hai aur file root mein hai */
+    /* Path aur Capitalization check: Genty.ttf must be in the same folder as this CSS */
     src: url('Genty.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -23,7 +23,7 @@ body {
     background: var(--white); 
     color: var(--black); 
     overflow: hidden; 
-    -webkit-font-smoothing: antialiased; /* Sharper text */
+    -webkit-font-smoothing: antialiased;
 }
 
 #canvas-container { position: absolute; inset: 0; z-index: 1; opacity: 0.4; }
@@ -48,7 +48,7 @@ body {
 
 h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85; letter-spacing: -0.05em; margin-bottom: 4rem; }
 
-/* FIXED SIGNATURE FONT */
+/* FIXED SIGNATURE FONT MAPPING */
 .depot-signature { 
     font-family: 'Genty', serif !important; 
     color: var(--gray); 
@@ -85,8 +85,46 @@ h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85;
 .elite-button:hover { background: transparent; color: var(--black); border-color: var(--black); }
 .elite-button:hover .btn-arrow { transform: rotate(-45deg); background: var(--black); }
 
-/* 6. BOTTOM BAR & TIMER */
+/* 6. BOTTOM BAR & TIMER (FIXED BLACK BACKGROUND ISSUE) */
 .bottom-bar { padding: 40px 8%; border-top: 1px solid rgba(0,0,0,0.06); display: flex; justify-content: space-between; align-items: center; }
 .redirect-info { display: flex; align-items: center; gap: 20px; }
-.timer-circle { position: relative; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; }
-.circular-chart { position: absolute; width: 100%; height: 100%; transform: rotate
+
+.timer-circle { 
+    position: relative; 
+    width: 44px; 
+    height: 44px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 12px; 
+    font-weight: 800; 
+    color: var(--black); 
+}
+
+.circular-chart { position: absolute; width: 100%; height: 100%; transform: rotate(-90deg); }
+
+/* In dono mein 'fill: none' hona zaroori hai warna black box dikhega */
+.circle-bg { 
+    fill: none; 
+    stroke: rgba(0,0,0,0.06); 
+    stroke-width: 3; 
+}
+
+.circle { 
+    fill: none; 
+    stroke: var(--black); 
+    stroke-width: 3; 
+    stroke-linecap: round; 
+    transition: stroke-dasharray 1s linear; 
+}
+
+.stats { display: flex; align-items: center; gap: 20px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.2em; color: var(--gray); }
+.dot { width: 4px; height: 4px; background: var(--gray); border-radius: 50%; }
+
+/* 7. RESPONSIVE FIXES */
+@media (max-width: 768px) { 
+    body { overflow-y: auto; }
+    .main-wrapper { height: auto; min-height: 100vh; }
+    h1 { font-size: 3.2rem; } 
+    .bottom-bar { flex-direction: column; gap: 30px; text-align: center; } 
+}

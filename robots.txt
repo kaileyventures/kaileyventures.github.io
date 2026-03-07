@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap link helps crawlers find all your pages faster
+Sitemap: https://kaileyventures.github.io/sitemap.xml

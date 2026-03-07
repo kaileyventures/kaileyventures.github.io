@@ -85,14 +85,14 @@ h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85;
 .elite-button:hover { background: transparent; color: var(--black); border-color: var(--black); }
 .elite-button:hover .btn-arrow { transform: rotate(-45deg); background: var(--black); }
 
-/* 6. BOTTOM BAR & TIMER - ABSOLUTE FIX */
+/* 6. BOTTOM BAR & TIMER - TRANSPARENCY FIX */
 .bottom-bar { 
     padding: 40px 8%; 
     border-top: 1px solid rgba(0,0,0,0.06); 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    background: var(--white); /* Ensures background is solid */
+    background: #fff; /* Solid background takki piche ka kuch na dikhe */
     position: relative;
     z-index: 100;
 }
@@ -109,16 +109,17 @@ h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85;
     height: 48px; 
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
+    background: transparent !important; /* Force transparent background */
 }
 
-/* Timer Number Fix */
+/* Digits Fix: Ye digits ko black dikhayega */
 #timer {
     font-size: 14px;
     font-weight: 800;
-    color: var(--black) !important; /* Force black color for digits */
+    color: #000 !important; 
     position: relative;
-    z-index: 10;
+    z-index: 10; /* Takki digits circle ke upar rahein */
 }
 
 .circular-chart { 
@@ -126,23 +127,33 @@ h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85;
     inset: 0;
     width: 100%; 
     height: 100%; 
-    transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    background: transparent !important;
 }
 
-/* Background Circle Fix */
+/* Background Circle: Ye halka gray circle dikhayega */
 .circle-bg { 
-    fill: none !important; /* Forces transparency */
-    stroke: rgba(0,0,0,0.08); 
-    stroke-width: 2.5; 
+    fill: none !important; 
+    stroke: rgba(0,0,0,0.05); 
+    stroke-width: 3; 
 }
 
-/* Progress Line Fix */
+/* Progress Line: Ye black loading line dikhayega */
 .circle { 
-    fill: none !important; /* Forces transparency */
-    stroke: var(--black) !important; 
-    stroke-width: 2.5; 
+    fill: none !important; 
+    stroke: #000 !important; 
+    stroke-width: 3; 
     stroke-linecap: round; 
     transition: stroke-dasharray 1s linear; 
+}
+
+/* Text next to timer */
+.redirect-info p {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000;
 }
 
 .stats { 
@@ -160,5 +171,5 @@ h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85;
 
 /* Mobile Adjustment */
 @media (max-width: 768px) { 
-    .bottom-bar { flex-direction: column; gap: 25px; padding: 40px 5%; }
+    .bottom-bar { flex-direction: column; gap: 25px; padding: 40px 5%; text-align: center; }
 }

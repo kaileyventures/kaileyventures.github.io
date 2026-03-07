@@ -1,0 +1,65 @@
+:root {
+    --black: #0a0a0a;
+    --gray: #7F7F7F;
+    --white: #FAFAFA;
+    --ease: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Manrope', sans-serif; background: var(--white); color: var(--black); overflow: hidden; }
+
+/* Background Kinetic Elements */
+#canvas-container { position: absolute; inset: 0; z-index: 1; opacity: 0.4; }
+.grain-overlay { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: url('https://grainy-gradients.vercel.app/noise.svg'); opacity: 0.05; }
+
+.main-wrapper { height: 100vh; display: flex; flex-direction: column; position: relative; z-index: 10; }
+
+.header { padding: 40px 8%; display: flex; align-items: center; gap: 30px; }
+.logo { height: 38px; }
+.h-line { flex-grow: 1; height: 1px; background: rgba(0,0,0,0.08); }
+.mandate { font-size: 10px; font-weight: 800; letter-spacing: 0.4em; color: var(--gray); text-transform: uppercase; }
+
+.hero { flex: 1; padding: 0 8%; display: flex; flex-direction: column; justify-content: center; }
+.tagline { font-size: 11px; font-weight: 800; letter-spacing: 0.6em; color: var(--gray); text-transform: uppercase; margin-bottom: 2rem; }
+
+h1 { font-size: clamp(3rem, 7.5vw, 8.5rem); font-weight: 800; line-height: 0.85; letter-spacing: -0.05em; margin-bottom: 4rem; }
+.depot-signature { font-family: serif; font-style: italic; color: var(--gray); font-weight: 400; display: block; transform: rotate(-1.5deg) translateX(-10px); }
+
+/* THE ELITE BUTTON */
+.cta-container { margin-top: 20px; }
+.elite-button {
+    display: inline-flex;
+    align-items: center;
+    background: var(--black);
+    color: white;
+    text-decoration: none;
+    padding: 6px 6px 6px 35px;
+    border-radius: 100px;
+    gap: 30px;
+    transition: all 0.5s var(--ease);
+    border: 1px solid transparent;
+}
+
+.btn-text { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; }
+.btn-arrow { 
+    width: 50px; height: 50px; background: #222; border-radius: 50%; 
+    display: flex; align-items: center; justify-content: center; 
+    transition: transform 0.5s var(--ease);
+}
+.btn-arrow svg { width: 18px; color: white; }
+
+.elite-button:hover { background: transparent; color: var(--black); border-color: var(--black); }
+.elite-button:hover .btn-arrow { transform: rotate(-45deg); background: var(--black); }
+
+/* Footer & Timer */
+.bottom-bar { padding: 40px 8%; border-top: 1px solid rgba(0,0,0,0.06); display: flex; justify-content: space-between; align-items: center; }
+.redirect-info { display: flex; align-items: center; gap: 20px; }
+.timer-circle { position: relative; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; }
+.circular-chart { position: absolute; width: 100%; height: 100%; transform: rotate(-90deg); }
+.circle-bg { fill: none; stroke: rgba(0,0,0,0.05); stroke-width: 2.5; }
+.circle { fill: none; stroke: var(--black); stroke-width: 2.5; stroke-linecap: round; transition: stroke-dasharray 1s linear; }
+
+.stats { display: flex; align-items: center; gap: 20px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.2em; color: var(--gray); }
+.dot { width: 4px; height: 4px; background: var(--gray); border-radius: 50%; }
+
+@media (max-width: 768px) { h1 { font-size: 3.5rem; } .bottom-bar { flex-direction: column; gap: 30px; text-align: center; } }

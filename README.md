@@ -1,28 +1,27 @@
 <div align="center">
 
-<img src="https://res.cloudinary.com/dxojtisjb/image/upload/v1772779794/Kailey-Ventures-logo-new-white_uqling.png" width="120" />
+<img src="https://res.cloudinary.com/dxojtisjb/image/upload/v1772799502/Kailey-Ventures-logo-new-W_bwrykd.png" width="550" alt="Kailey Ventures Institutional Identity" />
 
-# 🏛️ KAILEY VENTURES
-### **INSTITUTIONAL STRATEGIC HOLDING**
+<br />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF00?style=for-the-badge&logo=statuspage&logoColor=white&color=0a0a0a" />
-  <img src="https://img.shields.io/badge/SECURITY-ENCRYPTED-blue?style=for-the-badge&logo=fastly&logoColor=white&color=0a0a0a" />
-  <img src="https://img.shields.io/badge/SEO-AUDITED-gold?style=for-the-badge&logo=google-search-console&logoColor=white&color=0a0a0a" />
-</p>
+[![GitHub Pages](https://img.shields.io/badge/Deployment-Live-success?style=for-the-badge&logo=github&logoColor=white&color=0a0a0a)](https://kaileyventures.github.io/)
+[![SEO-Optimized](https://img.shields.io/badge/SEO-100%2F100-success?style=for-the-badge&logo=google-search-console&logoColor=white&color=0a0a0a)](https://search.google.com/search-console)
+[![Authority](https://img.shields.io/badge/Market-Authority-gold?style=for-the-badge&logo=target&logoColor=white&color=0a0a0a)](#)
+
+<br />
+
+> **"The strategic force directing market leaders into the next era of infrastructure."**
 
 ---
 
 ### 🌑 THE EXECUTIVE SUMMARY
-**Kailey Ventures** operates as the primary strategic engine. We don't just hold assets; we engineer the market infrastructure that powers high-velocity brands like **The Disposable Depot**.
+**Kailey Ventures** operates as the principal holding engine for **The Disposable Depot**, managing the intersection of high-end strategy and operational excellence. We engineer the market infrastructure that powers high-velocity brands.
 
 [**ENTER ECOSYSTEM**](https://kaileyventures.vercel.app) • [**STRATEGIC MANDATE**](#) • [**PORTFOLIO**](#)
 
 ---
 
 ### 💎 SYSTEM ARCHITECTURE
-*Everything is engineered for precision, speed, and institutional authority.*
-
 <br />
 
 <table align="center" style="border-collapse: collapse; border: none;">
@@ -59,7 +58,7 @@
 
 ---
 
-### 📂 REPOSITORY BLUEPRINTS
+### 📂 REPOSITORY ANATOMY
 ```bash
 # Core Digital Assets
 ├── 📄 index.html      # High-Performance Entry Point

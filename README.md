@@ -1,61 +1,69 @@
 <div align="center">
 
-# 🏛️ KAILEY VENTURES
-**INSTITUTIONAL STRATEGIC HOLDING**
+<img src="https://res.cloudinary.com/dxojtisjb/image/upload/v1772779794/Kailey-Ventures-logo-new-white_uqling.png" width="120" />
 
-[![GitHub Pages](https://img.shields.io/badge/Deployment-Live-success?style=for-the-badge&logo=github&logoColor=white&color=0a0a0a)](https://kaileyventures.github.io/)
-[![SEO-Optimized](https://img.shields.io/badge/SEO-100%2F100-success?style=for-the-badge&logo=google-search-console&logoColor=white&color=0a0a0a)](https://search.google.com/search-console)
-[![Authority](https://img.shields.io/badge/Market-Authority-gold?style=for-the-badge&logo=target&logoColor=white&color=0a0a0a)](#)
+# 🏛️ KAILEY VENTURES
+### **INSTITUTIONAL STRATEGIC HOLDING**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF00?style=for-the-badge&logo=statuspage&logoColor=white&color=0a0a0a" />
+  <img src="https://img.shields.io/badge/SECURITY-ENCRYPTED-blue?style=for-the-badge&logo=fastly&logoColor=white&color=0a0a0a" />
+  <img src="https://img.shields.io/badge/SEO-AUDITED-gold?style=for-the-badge&logo=google-search-console&logoColor=white&color=0a0a0a" />
+</p>
+
+---
+
+### 🌑 THE EXECUTIVE SUMMARY
+**Kailey Ventures** operates as the primary strategic engine. We don't just hold assets; we engineer the market infrastructure that powers high-velocity brands like **The Disposable Depot**.
+
+[**ENTER ECOSYSTEM**](https://kaileyventures.vercel.app) • [**STRATEGIC MANDATE**](#) • [**PORTFOLIO**](#)
+
+---
+
+### 💎 SYSTEM ARCHITECTURE
+*Everything is engineered for precision, speed, and institutional authority.*
 
 <br />
 
-> "The strategic force directing market leaders into the next era of infrastructure."
-
-
-
----
-
-### 🌑 THE ECOSYSTEM
-Kailey Ventures operates as the principal holding engine for **The Disposable Depot**, managing the intersection of high-end strategy and operational excellence.
-
-[Visit the Main Asset](https://kaileyventures.vercel.app) • [View Documentation](#) • [Request Access](#)
-
-</div>
-
----
-
-### 🛠️ ARCHITECTURAL STACK
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center" width="200">
-      <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JS" /><br /><b>Logic Engine</b>
+    <td align="center" style="padding: 20px;">
+      <img src="https://skillicons.dev/icons?i=js" width="50" /><br />
+      <code>CORE ENGINE</code>
     </td>
-    <td align="center" width="200">
-      <img src="https://skillicons.dev/icons?i=css" width="40" height="40" alt="CSS" /><br /><b>Grain Shaders</b>
+    <td align="center" style="padding: 20px;">
+      <img src="https://skillicons.dev/icons?i=css" width="50" /><br />
+      <code>GRAIN SHADERS</code>
     </td>
-    <td align="center" width="200">
-      <img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML" /><br /><b>Semantic SEO</b>
+    <td align="center" style="padding: 20px;">
+      <img src="https://skillicons.dev/icons?i=html" width="50" /><br />
+      <code>SEMANTIC SEO</code>
     </td>
-    <td align="center" width="200">
-      <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GH" /><br /><b>Edge Hosting</b>
+    <td align="center" style="padding: 20px;">
+      <img src="https://skillicons.dev/icons?i=vercel" width="50" /><br />
+      <code>EDGE DEPLOY</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛡️ INSTITUTIONAL FEATURES
-* **Identity Lock:** Exact replication of branding via custom Genty Typography integration.
-* **Cubic-Bezier Engine:** Custom 0.5s transition curve for "Elite" user experience.
-* **Crawler Supremacy:** Fully injected JSON-LD Schema for instant Google Authority.
-* **PWA Core:** Service-ready architecture for mobile-home-screen installation.
+### 🛡️ INSTITUTIONAL CAPABILITIES
+
+| FEATURE | SPECIFICATION | IMPACT |
+| :--- | :--- | :--- |
+| **Identity Lock** | Genty Custom Typeface | Absolute Brand Fidelity |
+| **Motion Engine** | Cubic-Bezier (0.19, 1, 0.22, 1) | Elite UX Fluidity |
+| **Search Supremacy** | JSON-LD Structured Data | Institutional Authority |
+| **Core Vitals** | 100/100 Lighthouse Ready | Maximum Edge Ranking |
 
 ---
 
-### 📂 REPOSITORY ANATOMY
+### 📂 REPOSITORY BLUEPRINTS
 ```bash
-├── index.html          # Optimized Entry Point
-├── style.css           # Design System (Institutional)
-├── script.js           # Transition & Timer Logic
-├── Genty.ttf           # Core Identity Font
-└── sitemap.xml         # Indexing Map
+# Core Digital Assets
+├── 📄 index.html      # High-Performance Entry Point
+├── 🎨 style.css       # Institutional Design System
+├── ⚙️ script.js      # Motion & Transition Logic
+├── 🔤 Genty.ttf       # Proprietary Brand Identity
+└── 🗺️ sitemap.xml     # Strategic Indexing Map

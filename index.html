@@ -1,19 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
-
-  <!-- instant redirect -->
-  <meta http-equiv="refresh" content="0; url=https://kaileyventures.vercel.app">
-
-  <!-- fallback redirect -->
-  <script>
-    window.location.href = "https://kaileyventures.vercel.app";
-  </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailey Ventures | Strategic Holding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-Redirecting to <a href="https://kaileyventures.vercel.app">KaileyVentures</a>
+    <div id="canvas-container"></div>
+    <div class="grain-overlay"></div>
+
+    <div class="main-wrapper">
+        <header class="header">
+            <img src="https://res.cloudinary.com/dxojtisjb/image/upload/v1772779794/Kailey-Ventures-logo-new_nhsgzl.png" alt="KV" class="logo">
+            <div class="h-line"></div>
+            <span class="mandate"></span>
+        </header>
+
+        <main class="hero">
+            <div class="hero-reveal">
+                <p class="tagline">Principal Holding Organization</p>
+                <h1>The strategic force <br> behind <span class="depot-signature">The Disposable Depot.</span></h1>
+                
+                <div class="cta-container">
+                    <a href="https://kaileyventures.vercel.app" class="elite-button">
+                        <span class="btn-text">Go to Main Site</span>
+                        <span class="btn-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bottom-bar">
+            <div class="redirect-info">
+                <div class="timer-circle">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path id="progress-circle" class="circle" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    </svg>
+                    <span id="timer">10</span>
+                </div>
+                <p>Auto-Redirecting to Ecosystem</p>
+            </div>
+            <div class="stats">
+                <span>400+ Active Clients</span>
+                <span class="dot"></span>
+                <span>Market Authority</span>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
